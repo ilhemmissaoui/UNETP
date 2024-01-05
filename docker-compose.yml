@@ -1,0 +1,83 @@
+version: "3.8"
+
+services:
+  cronicle:
+    hostname: cronicle
+    container_name: cronicle
+    image: intelliops/cronicle:0.8.28
+    restart: always
+    environment:
+      - IS_MASTER=1
+    volumes:
+      - cronicle_data:/opt/cronicle/data
+    expose:
+      - 3012
+    ports:
+      - 8080:3012
+    networks:
+      - pixelium
+  redis:
+    container_name: redis
+    image: bitnami/redis:latest
+    ports:
+      - 6379:6379
+    volumes:
+      - redis_data:/bitnami/redis/data
+    networks:
+      - pixelium
+    environment:
+      - ALLOW_EMPTY_PASSWORD=yes
+  endpoints:
+    container_name: unetp-endpoints
+    build:
+      context: ./endpoints
+      target: production
+    volumes:
+      - .:/src
+      - ./avatars:/avatars
+    expose:
+      - 7070
+    restart: always
+    environment:
+      - DB_USER=unetp
+      - DB_PASSWORD=U"F2dE!>VmF2rS
+      - DB_HOST=db
+      - DB_TYPE=mysql
+      - DB_NAME=unetp
+      - ENDPOINT_PORT=7070
+      - DOCS_PATH=/docs
+      - ENDPOINT_URL=https://api-unetp.klaim.fr
+      - JWT_SECRET=JWT_SECRET
+      - BCRYPT_SALT=9
+      - SMTP_HOST=smtp.mailtrap.io
+      - SMTP_PORT=2525
+      - SMTP_USERNAME=2c05fe952eaea2
+      - SMTP_PASSWORD=0d3e9bdf36d7fa
+      - EMAIL_FROM=admin@annuaire-unetp.bayardserviceweb.com
+      - NODE_ENV=production
+      - FRONT_URL=https://sg-unetp.klaim.fr
+      - JWT_ACCESS_EXPIRATION_MINUTES=100000
+      - AVATARS_PATH=/avatars
+      - REDIS_URL=redis://redis:6379
+      - CRONICLE_URL=http://cronicle:3012
+      - CRONICLE_API_KEY=1e3523f2faa38380b906da0caf9d8e52
+    networks:
+      - pixelium
+  front:
+    container_name: unetp-front
+    build:
+      context: ./front
+    expose:
+      - 7000
+    environment:
+      - PORT=7000
+    restart: always
+    networks:
+      - pixelium
+networks:
+  pixelium:
+    external: true
+
+volumes:
+  redis_data:
+  cronicle_data:

@@ -1,0 +1,371 @@
+[
+    {
+        "name": "Ariana",
+        "cities": [
+            "Ariana Ville",
+            "Soukra",
+            "Raouède",
+            "Kalâat Andalous",
+            "Sidi Thabet",
+            "Cité Attadhamon",
+            "M’nihla"
+        ]
+    },
+    {
+        "name": "Manouba",
+        "cities": [
+            "Manouba",
+            "Oued Ellil",
+            "Tebourba",
+            "Battan",
+            "Jedaida",
+            "Mornaguia",
+            "Borj Amri",
+            "Douar Hicher"
+        ]
+    },
+    {
+        "name": "Ben Arous",
+        "cities": [
+            "Ben Arous",
+            "Nouvelle Médina",
+            "Mourouj",
+            "Hammam Lif",
+            "Hammam Chatt",
+            "Boumhel Bassatine",
+            "Ezzahra",
+            "Radès",
+            "Megrine",
+            "M’hamdia",
+            "Fouchana",
+            "Mornag"
+        ]
+    },
+    {
+        "name": "Nabeul",
+        "cities": [
+            "Nabeul",
+            "Dar Chaâbane Elfehri",
+            "Béni Khiar",
+            "Korba",
+            "Menzel Temime",
+            "Mida",
+            "Kelibia",
+            "Hammam Ghezaz",
+            "Haouaria",
+            "Takelsa",
+            "Slimane",
+            "Menzel Bouzelfa",
+            "Béni Khalled",
+            "Grombalia",
+            "Bouârgoub",
+            "Hammamet"
+        ]
+    },
+    {
+        "name": "Bizerte",
+        "cities": [
+            "Bizerte Nord",
+            "Jarzouna",
+            "Bizerte Sud",
+            "Sejnane",
+            "Joumine",
+            "Mateur",
+            "Ghezala",
+            "Menzel Bourguiba",
+            "Tinja",
+            "Utique",
+            "Ghar El Melh",
+            "Menzel Jemil",
+            "El Alia",
+            "Ras Jebel "
+        ]
+    },
+    {
+        "name": "Zaghouan",
+        "cities": ["Zaghouan", "Zériba", "Bir Mecharga", "Fahs", "Nadhour", "Saouaf"]
+    },
+    {
+        "name": "Sousse",
+        "cities": [
+            "Sousse Ville",
+            "Zaouia Ksiba Thrayat",
+            "Sousse Ryadh",
+            "Sousse Jawhara",
+            "Sousse Sidi Abdelhamid",
+            "Hammam sousse",
+            "Akouda",
+            "Kalâa Elkébira",
+            "Sidi Bouali",
+            "Hergla",
+            "Enfidha",
+            "Bouficha",
+            "Koundar",
+            "Sidi Elheni",
+            "Msaken",
+            "Kalâa Ességhira"
+        ]
+    },
+    {
+        "name": "Monastir",
+        "cities": [
+            "Monastir",
+            "Ouerdanine",
+            "Sahline",
+            "Zéramdine",
+            "Béni Hassan",
+            "Jammel",
+            "Benbla",
+            "Moknine",
+            "Bekalta",
+            "Teboulba",
+            "Ksar Helal",
+            "Ksibet Medyouni",
+            "Sayada Lamta Bouhjar"
+        ]
+    },
+    {
+        "name": "Mahdia",
+        "cities": [
+            "Mahdia",
+            "Boumerdes",
+            "Ouled Chamekh",
+            "Chorbane",
+            "Hbira",
+            "Souassi",
+            "Eljem",
+            "Chebba",
+            "Malloulech",
+            "Sidi Alouane",
+            "Ksour Essef"
+        ]
+    },
+    {
+        "name": "Sfax",
+        "cities": [
+            "Sfax Ville",
+            "Sfax Ouest",
+            "Sakiet Ezzit",
+            "Sakiet Eddaier",
+            "Sfax sud",
+            "Tina",
+            "Agareb",
+            "Jebeniana",
+            "El Amra",
+            "El Hencha",
+            "Menzel chaker",
+            "Ghraiba",
+            "Bir Ali Ben Khelifa",
+            "Sekhira",
+            "Mahrès",
+            "Kerkennah"
+        ]
+    },
+    {
+        "name": "Béja",
+        "cities": [
+            "Béja nord",
+            "Béja sud",
+            "Amdoun",
+            "Nefza",
+            "Teboursouk",
+            "Tibar",
+            "Testour",
+            "Goubellat",
+            "Mejez El Bab"
+        ]
+    },
+    {
+        "name": "Jendouba",
+        "cities": [
+            "Jendouba",
+            "Jendouba Nord",
+            "Boussalem",
+            "Tabarka",
+            "Ain Drahem",
+            "Fernana",
+            "Ghardimaou",
+            "Oued Mliz",
+            "Balta Bouaouene"
+        ]
+    },
+    {
+        "name": "Kef",
+        "cities": [
+            "Kef Ouest",
+            "Kef Est",
+            "Nebeur",
+            "Sakiet Sidi Youssef",
+            "Tejerouine",
+            "Kalâat sinane",
+            "Kalâa El khasba",
+            "Jerissa",
+            "Gsour",
+            "Dahmani",
+            "Le Sers"
+        ]
+    },
+    {
+        "name": "Siliana",
+        "cities": [
+            "Siliana nord",
+            "Siliana sud",
+            "Bouarada",
+            "Gâafour",
+            "El Aroussa",
+            "Le Krib",
+            "Bourouis",
+            "Makther",
+            "Rouhia",
+            "Kesra",
+            "Bargou"
+        ]
+    },
+    {
+        "name": "Kairouan",
+        "cities": [
+            "Kairouan Nord",
+            "Kairouan Sud",
+            "Chebika",
+            "Sebikha",
+            "Oueslatia",
+            "Haffouz",
+            "El Ala",
+            "Hajeb El Ayoun",
+            "Nasrallah",
+            "Cherarda",
+            "Bouhajla"
+        ]
+    },
+    {
+        "name": "Sidi Bouzid",
+        "cities": [
+            "Sidi Bouzid Ouest",
+            "Sidi Bouzid Est",
+            "Jelma",
+            "Sabbalet Ouled Askar",
+            "Bir Hfay",
+            "Sidi Ali Benôun",
+            "Menzel Bouzayane",
+            "Meknassi",
+            "Souk Jedid",
+            "Mezouna",
+            "Regueb",
+            "Ouled Haffouz "
+        ]
+    },
+    {
+        "name": "Kasserine",
+        "cities": [
+            "Kasserine Nord",
+            "Kasserine Sud",
+            "Azzouhour",
+            "Hassi ferid",
+            "Sbitla",
+            "Sbiba",
+            "Jedliane",
+            "El Ayoun",
+            "Tela",
+            "Hidra",
+            "Foussana",
+            "Feriana",
+            "Mejel Bel Abbes."
+        ]
+    },
+    {
+        "name": "Gabès",
+        "cities": [
+            "Gabès ville",
+            "Gabès ouest",
+            "Gabès sud",
+            "Ghannouch",
+            "Metouia",
+            "Menzel habib",
+            "Hamma",
+            "Matmata",
+            "Matmata nouvelle",
+            "Mareth"
+        ]
+    },
+    {
+        "name": "Medenine",
+        "cities": [
+            "Mednine Nord",
+            "Mednine Sud",
+            "Béni khedach",
+            "Ben Guerdene",
+            "Zazis",
+            "Jerba Houmet Souk",
+            "Jerba Midoun",
+            "Jerba Ajim",
+            "Sidi Makhlouf "
+        ]
+    },
+    {
+        "name": "Gafsa",
+        "cities": [
+            "Gafsa Nord",
+            "Sidi Aich",
+            "El Ksar",
+            "Gafsa Sud",
+            "Moulares",
+            "Redyef",
+            "Métlaoui",
+            "El Mdhilla",
+            "El Guettar",
+            "Belkhir",
+            "Sned"
+        ]
+    },
+    {
+        "name": "Tozeur",
+        "cities": ["Tozeur", "Degueche", "Tameghza", "Nefta", "Hezoua"]
+    },
+    {
+        "name": "Tataouine",
+        "cities": [
+            "Tataouine Nord",
+            "Tataouine Sud",
+            "Smar",
+            "Bir Lahmer",
+            "Ghomrassen",
+            "Dhehiba",
+            "Remada"
+        ]
+    },
+    {
+        "name": "Kébili",
+        "cities": [
+            "Kébili Sud",
+            "Kébili Nord",
+            "Souk El Ahad",
+            "Douz nord",
+            "Douz sud",
+            "El Faouar"
+        ]
+    },
+    {
+        "name": "Tunis",
+        "cities": [
+            "Carthage",
+            "La Médina ",
+            "Bab Bhar ",
+            "Bab Souika ",
+            "Omrane ",
+            "Omrane Supérieur ",
+            "Attahri",
+            "El Menza",
+            "Cité Alkhadhr",
+            "Bard",
+            "Azzouhour ",
+            "Sidi Hsine",
+            "Ouardia",
+            "Kabaria",
+            "Sidi Elbéchir",
+            "Jebel Jelloud",
+            "La Goulette",
+            "Le Kram",
+            "La Marsa"
+        ]
+    }
+]

@@ -1,0 +1,26 @@
+{
+  "name": "unetp-management",
+  "version": "1.0.0",
+  "description": "<img src=\"front/public/images/logos/logo.png?raw=true\" width=\"128\"/>",
+  "main": "index.js",
+  "scripts": {
+    "prettier-front": "cd front && npm run prettier",
+    "lint-front": "cd front && npm run lint",
+    "prettier-endpoints": "cd endpoints && npm run prettier",
+    "lint-endpoints": "cd endpoints && npm run lint",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PixeliumTN/UNETP-MANAGEMENT.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PixeliumTN/UNETP-MANAGEMENT/issues"
+  },
+  "homepage": "https://github.com/PixeliumTN/UNETP-MANAGEMENT#readme",
+  "devDependencies": {
+    "husky": "^7.0.4"
+  }
+}

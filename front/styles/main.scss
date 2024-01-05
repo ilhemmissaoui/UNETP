@@ -1,0 +1,150 @@
+@import 'variables';
+@import 'core/style';
+//@import 'core/style.dark';
+@import 'core/plugins';
+//@import 'core/plugins.dark';
+@import 'core.extend';
+@import 'mixins';
+@import 'utils';
+@import 'fonts/index';
+@import 'vendors/index';
+@import 'components/index';
+@import 'pages/index';
+
+// .query-builder {
+//     //== global
+//     // .ant-btn.action--DELETE {
+//     //     @extend .btn;
+//     //     @extend .btn-icon;
+//     //     @extend .btn-danger;
+//     // }
+//     // .ant-btn-group {
+//     //     @extend .btn-group;
+//     // }
+//     // .ant-btn-group-sm {
+//     //     @extend .btn-group-sm;
+//     // }
+//     // .ant-input {
+//     //     @extend .form-control;
+//     // }
+//     // .ant-input-number-input {
+//     //     @extend .form-control;
+//     // }
+//     //==
+//     .group-or-rule-container {
+//         .rule {
+//             @extend .card;
+//             background-color: white;
+//             border: 1px solid transparent;
+//             flex: 1;
+//             display: flex;
+//             margin-bottom: 10px;
+//             .rule--header {
+//                 @extend .card-toolbar;
+//             }
+//             .rule--operator {
+//                 @extend .col-md-2 !optional;
+//             }
+//             .rule--body {
+//                 @extend.card-body;
+//                 .rule--field {
+//                     display: inline-block;
+//                     //             .ant-select.ant-select-show-search {
+//                     //                 margin: 0;
+//                     //                 padding: 0;
+//                     //                 color: rgba(0, 0, 0, 0.85);
+//                     //                 font-size: 14px;
+//                     //                 font-variant: tabular-nums;
+//                     //                 line-height: 1.5715;
+//                     //                 list-style: none;
+//                     //                 font-feature-settings: 'tnum';
+//                     //                 position: relative;
+//                     //                 display: inline-block;
+//                     //                 cursor: pointer;
+//                     //                 .ant-select-selector {
+//                     //                     position: relative;
+//                     //                     background-color: #fff;
+//                     //                     border: 1px solid #d9d9d9;
+//                     //                     border-radius: 2px;
+//                     //                     transition: all 0.3s;
+//                     //                     .ant-select-selection-search {
+//                     //                         position: absolute;
+//                     //                         top: 0;
+//                     //                         right: 11px;
+//                     //                         bottom: 0;
+//                     //                         left: 11px;
+//                     //                     }
+//                     //                     .ant-select-selection-placeholder {
+//                     //                         flex: 1;
+//                     //                         overflow: hidden;
+//                     //                         color: #bfbfbf;
+//                     //                         white-space: nowrap;
+//                     //                         text-overflow: ellipsis;
+//                     //                     }
+//                     //                     .ant-select-arrow {
+//                     //                         font-style: normal;
+//                     //                         text-transform: none;
+//                     //                         vertical-align: -0.125em;
+//                     //                         text-rendering: optimizelegibility;
+//                     //                         -webkit-font-smoothing: antialiased;
+//                     //                         position: absolute;
+//                     //                         top: 50%;
+//                     //                         right: 11px;
+//                     //                         display: flex;
+//                     //                         align-items: center;
+//                     //                         height: 12px;
+//                     //                         margin-top: -6px;
+//                     //                         color: rgba(0, 0, 0, 0.25);
+//                     //                         font-size: 12px;
+//                     //                         line-height: 1;
+//                     //                         text-align: center;
+//                     //                         pointer-events: none;
+//                     //                     }
+//                     //                 }
+//                     //             }
+//                 }
+//             }
+//         }
+//         .group {
+//             @extend .card;
+//             background: rgba(250, 240, 210, 0.5);
+//             border: 1px solid #dcc896 !important;
+//             margin: 2px;
+//             margin-bottom: 10px;
+//         }
+//         // .group-or-rule {
+//         //     @extend .border;
+//         //     @extend .rounded;
+//         // }
+//         .group--header {
+//             @extend .card-header;
+//             .group--conjunctions {
+//                 @extend .card-title;
+//                 // .ant-btn {
+//                 //     @extend .btn;
+//                 //     @extend .btn-secondary;
+//                 // }
+//             }
+//             .group--actions {
+//                 @extend .card-toolbar;
+//                 // .ant-btn.action--ADD-RULE {
+//                 //     @extend .btn;
+//                 //     @extend .btn-sm;
+//                 //     @extend .btn-primary;
+//                 // }
+//                 // .ant-btn.action--ADD-GROUP {
+//                 //     @extend .btn;
+//                 //     @extend .btn-primary;
+//                 // }
+//                 // .ant-btn.action--DELETE {
+//                 //     @extend .btn;
+//                 //     @extend .btn-icon;
+//                 //     @extend .btn-danger;
+//                 // }
+//             }
+//         }
+//         .group--children {
+//             @extend .card-body;
+//         }
+//     }
+// }

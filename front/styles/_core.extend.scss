@@ -1,0 +1,26 @@
+#__next {
+    @extend .d-flex;
+    @extend .flex-column;
+    @extend .flex-root;
+}
+
+#default-aside {
+    @include media-breakpoint-down(lg) {
+        display: flex !important;
+        overflow: auto;
+        z-index: get($drawer, z-index);
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        background-color: get($drawer, bg-color);
+        transition: transform get($drawer, transition-speed) ease-in-out;
+        left: 0;
+        transform: translateX(-100%);
+
+        &.drawer-on {
+            transform: none;
+            box-shadow: get($drawer, box-shadow);
+            transition: transform get($drawer, transition-speed) ease-in-out;
+        }
+    }
+}
